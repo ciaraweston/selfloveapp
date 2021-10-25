@@ -1,0 +1,82 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+/* Clear fix hack */
+.clearfix:after {
+  content: “”;
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clear {
+  clear: both;
+}
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+  background: url(https://images.unsplash.com/photo-1515890435782-59a5bb6ec191?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80)
+    repeat center top fixed;
+  background-size: cover;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+body {
+  margin-top: auto;
+  /* box-shadow: 0 0 8px 8px rgb(253, 228, 202); */
+  background: transparent;
+  height: auto;
+  width: 60%;
+  display: block;
+  margin: auto;
+  margin-top: 3em;
+}
+h1 {
+  font-size: 50px;
+  color: rgb(87, 12, 102);
+  margin-bottom: 0;
+}
+h3 {
+  font-size: 25px;
+  color: #1c3033;
+}
+ul {
+  display: block;
+}
+li {
+  background: c1b7adb8;
+  box-shadow: 0 0 5px 5px rgb(87, 12, 102);
+  padding: 1em;
+  margin: 0.5em;
+  list-style: none;
+  height: 9em;
+  width: 30%;
+  float: left;
+  margin-top: 4em;
+  margin-bottom: 0;
+}
+.fa-heart {
+  color: plum;
+}
+input {
+  width: 50%;
+  text-align: center;
+  height: 1.5em;
+}
+button {
+  color: #ffffff;
+  background: rgb(87, 12, 102);
+  border: 2px solid black;
+}

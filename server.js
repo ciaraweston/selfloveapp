@@ -6,7 +6,7 @@ const MongoClient = require('mongodb').MongoClient
 
 let db, collection;
 
-const url = "mongodb+srv://cweston0727:dO53EHrbFsnaEq42@cluster0.ahgdx.mongodb.net/dailyaffirmations?retryWrites=true&w=majority"
+const url = "mongodb+srv://cweston0727:RIpcpqZAFy0W9qQu@cluster0.ahgdx.mongodb.net/dailyaffirmations?retryWrites=true&w=majority"
 const dbName = "cweston";
 
 app.listen(3000, () => {
